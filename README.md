@@ -54,12 +54,7 @@ ngrok http 666
 ```
 `ngrok` 会给出一个公网地址，临时分享给朋友即可。
 
-常见问题
 
-- 如果在 Streamlit Cloud 中遇到字体或 matplotlib 报错，建议在 `qqq_web/requirements.txt` 明确指定兼容版本，或使用 Plotly 渲染（代码已包含切换选项）。
-
-我可以帮你：
-- 初始化本地 git 并提交/推送（需要仓库远程地址或授权）。
 - 直接为你在本机启动并绑定 `0.0.0.0`（以便局域网访问）。
 - 指导你把仓库连接到 Streamlit Cloud 并完成部署。
 
