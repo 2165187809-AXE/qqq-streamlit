@@ -182,8 +182,9 @@ def fetch_and_plot():
             os.system(f"open {output_filename}")
         elif platform.system() == "Windows":
             os.startfile(output_filename)
-    except:
-        pass
+    except Exception as e:
+        print(f"ℹ️ 无法自动打开图片: {e}")
+        print(f"   请手动打开文件: {output_filename}")
 
 
 if __name__ == "__main__":
